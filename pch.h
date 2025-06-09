@@ -1,23 +1,13 @@
+#pragma once
 #ifndef PCH_H
 #define PCH_H
-#ifndef COUT
-#define COUT std::cout
-#endif
-#ifndef WCOUT
-#define WCOUT std::wcout
-#endif
 
-#include <windows.h>
+#include <Windows.h>
 #include <string>
 #include <vector>
-#include <iostream>
-#include <sstream>
-#include <fstream>
 
-#include "Aeyth8/Global/Global.h"
-
-
-
+#include "Aeyth8/Proxy/Proxy.h"
+#include "Aeyth8/Proxy/ProxyTypes.h"
 
 
 #endif // PCH_H
